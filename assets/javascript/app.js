@@ -175,7 +175,7 @@ $(document).ready(function(){
           trainId.trainDestination + "</td><td>" + 
           trainId.trainFreq + "</td><td>" +
           newTime + "</td><td>" +
-          timeDiffTotal + "</td><td><button class='edit btn' data-train=" + trainClass + "><i class='glyphicon glyphicon-pencil'></i></button><button class='delete btn' data-train=" + trainClass + "><i class='glyphicon glyphicon-remove'></i></button></td>");
+          timeDiffTotal + "</td><td><button class='edit btn' data-train=" + trainClass + "><i class="far fa-edit"></i></button><button class='delete btn' data-train=" + trainClass + "><i class="far fa-trash-alt"></i></button></td>");
   
       }, function(errorObject) {
           console.log("Errors handled: " + errorObject.code);
